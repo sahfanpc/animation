@@ -1,0 +1,143 @@
+// AOS//
+
+// .main {
+//   height: 500vh;
+//   width: 100%;
+//   .container {
+//     height: 100%;
+//     background-color: black;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 5rem;
+//     .card1 {
+//       width: 20rem;
+//       height: 10rem;
+//       background-color: bisque;
+//     }
+//   }
+// }
+
+// button animation//
+
+// .main {
+//   display: flex;
+//   justify-content: center;
+//   align-content: center;
+//   width: 100%;
+//   height: 200rem;
+//   .btn {
+//     width: 7rem;
+//     height: 2rem;
+//     border: 1px solid red;
+//     background-color: orange;
+//     border-radius: 0.4rem;
+
+//     transition: transform 0.5s ease 0s, background-color 0.9s, color 0.9s;
+//     //............ transition.property:transform,transition-duration:.3s,transition-timing-function:ease,transition-dilay:0s........//
+//     transition: all 0.5s;
+//     // .....for depents all....//
+
+//   }
+//   .btn:hover {
+//     transform: translateY(-10px);
+//     background-color: black;
+//     color: white;
+//   }
+// }
+
+// text-animation //
+// @keyframes slideInLeft {
+//   from {
+//     transform: translateX(-300px);
+//   }
+//   to {
+//     transform: translateX(0);
+//   }
+// }
+// @keyframes slideInRight {
+//   from {
+//     transform: translateX(300px);
+//   }
+//   to {
+//     transform: translateX(0);
+//   }
+// }
+// @keyframes rotate {
+//   from {
+//     transform: rotate(0);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+// .main {
+//   width: 100%;
+//   height: 100vh;
+//   text-align: center;
+//   .header {
+//     // animation-name: slideInLeft;
+//     // animation-duration: 1s;
+//     // animation-timing-function: ease-in;
+//     // animation-delay: 1s;
+//     // animation-iteration-count: infinite;
+//     // animation-direction: normal;
+//     // animation-fill-mode: both;
+//     animation: slideInLeft 1s ease-in 1s infinite normal both;
+//   }
+//   .body {
+//     animation: slideInRight 1s ease-in 1s infinite normal both;
+//   }
+//   .rotate {
+//     animation: rotate 1s ease-in 1s infinite normal both;
+//   }
+// }
+
+// animation using persentage
+// .container {
+//   width: 30rem;
+//   height: 30rem;
+//   background-color: blue;
+//   .child {
+//     width: 50%;
+//     height: 50%;
+//     background-color: red;
+//     // animation: left-to-right 1s ease-in forwards 3 alternate 3s;
+//     // transition: transform 2s ease-in-out;
+//   }
+// }
+// .container:hover .child {
+//   // transform: translateX(100%);
+//   animation: left-to-right 1s ease-in-out forwards 3 alternate 1s;
+// }
+// @keyframes left-to-right {
+//   0% {
+//     transform: translateX(0);
+//     background-color: gray;
+//   }
+//   33% {
+//     transform: translateY(100%);
+//     background-color: green;
+//   }
+//   66% {
+//     transform: translateX(100%) translateY(100%);
+//     background-color: purple;
+//   }
+//   100% {
+//     transform: translateX(100%);
+//   }
+// }
+
+// rotate//
+// .container {
+//   width: 10rem;
+//   height: 10rem;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: white;
+//   background-color: black;
+//   transition: transform 2s ease-in-out;
+// }
+// .container:hover {
+//   transform: rotate(360deg);
+// }
